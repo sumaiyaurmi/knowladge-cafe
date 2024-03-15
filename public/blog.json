@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover": "https://img.freepik.com/free-photo/information-technology-coding-connection-programming_53876-125183.jpg?t=st=1710532799~exp=1710536399~hmac=a552313feffa0f73fc3517f58fb4ee078b09427a94877ae6fc7a535182fc6b6a&w=740",
+      "title": "The Art of Programming",
+      "author": "John Smith",
+      "author_img": "https://img.freepik.com/free-vector/day-programmer-poster_1308-115338.jpg?t=st=1710533560~exp=1710537160~hmac=7320098f093ad1489def295a3124999609a7f68560b16f6c332e4741afa427ad&w=740",
+      "posted_date": "2024-03-16",
+      "reading_time": 30,
+      "hashtags": ["programming", "coding", "development"]
+    },
+    {
+      "id": 2,
+      "cover": "https://img.freepik.com/free-photo/programming-background-collage_23-2149901772.jpg?t=st=1710533177~exp=1710536777~hmac=a0d89f7ae15147180002ebfb3348c4ab068c7a8d239d3c1fe8be07a1ef50d378&w=740",
+      "title": "The Science of Data",
+      "author": "Alice Johnson",
+      "author_img": "https://img.freepik.com/free-vector/day-programmer-poster_1308-115338.jpg?t=st=1710533560~exp=1710537160~hmac=7320098f093ad1489def295a3124999609a7f68560b16f6c332e4741afa427ad&w=740",
+      "posted_date": "2024-03-15",
+      "reading_time": 45,
+      "hashtags": ["data", "analytics", "statistics"]
+    },
+    {
+      "id": 3,
+      "cover": "https://img.freepik.com/free-photo/programming-background-collage_23-2149901770.jpg?t=st=1710533256~exp=1710536856~hmac=73a393c345d384b5d48cc3072a6e7e584f03f56edc7086fd5f837eada079c9ac&w=740",
+      "title": "Exploring the Universe",
+      "author": "David Lee",
+      "author_img": "https://img.freepik.com/free-vector/day-programmer-poster_1308-115338.jpg?t=st=1710533560~exp=1710537160~hmac=7320098f093ad1489def295a3124999609a7f68560b16f6c332e4741afa427ad&w=740",
+      "posted_date": "2024-03-14",
+      "reading_time": 60,
+      "hashtags": ["science", "space", "astronomy"]
+    },
+    {
+      "id": 4,
+      "cover": "https://img.freepik.com/free-photo/programming-background-collage_23-2149901766.jpg?t=st=1710533268~exp=1710536868~hmac=c99b728a38bd6bf0a153eb093fc11f89b03dc5d85cc3c1603bd0f5a2b70607ea&w=740",
+      "title": "Cooking Around the World",
+      "author": "Emily Brown",
+      "author_img": "https://img.freepik.com/free-vector/day-programmer-poster_1308-115338.jpg?t=st=1710533560~exp=1710537160~hmac=7320098f093ad1489def295a3124999609a7f68560b16f6c332e4741afa427ad&w=740",
+      "posted_date": "2024-03-13",
+      "reading_time": 40,
+      "hashtags": ["cooking", "food", "recipes"]
+    },
+    {
+      "id": 5,
+      "cover": "https://img.freepik.com/free-photo/programming-background-collage_23-2149901791.jpg?t=st=1710533293~exp=1710536893~hmac=95dfad7333be691ff88e4542de8b53c3954d2b2f1bf455328a2e436e519c0aad&w=740",
+      "title": "Mindfulness Meditation",
+      "author": "Michael Wang",
+      "author_img": "https://img.freepik.com/free-vector/day-programmer-poster_1308-115338.jpg?t=st=1710533560~exp=1710537160~hmac=7320098f093ad1489def295a3124999609a7f68560b16f6c332e4741afa427ad&w=740",
+      "posted_date": "2024-03-12",
+      "reading_time": 20,
+      "hashtags": ["mindfulness", "meditation", "wellness"]
+    }
+  ]
+  
