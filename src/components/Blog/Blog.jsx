@@ -2,8 +2,8 @@ import profile from "../../assets/images/girl1.jpg";
 import PropTypes from "prop-types";
 import { FaBookmark  } from 'react-icons/fa';
 
-const Blog = ({ blog,handleBookmark }) => {
-  const { cover, title, author, posted_date, reading_time, hashtags } = blog;
+const Blog = ({ blog,handleBookmark ,displayReadingTime}) => {
+  const { id,cover, title, author, posted_date, reading_time, hashtags } = blog;
   return (
     <div className="space-y-4 my-2">
       {/* cover img */}
@@ -31,7 +31,8 @@ const Blog = ({ blog,handleBookmark }) => {
       {/* title , hashtag,mark part */}
       <h2 className="text-3xl font-semibold">{title}</h2>
       <div>{hashtags.map((hashtag,index) =><span key={index}><a href="#">#{hashtag}</a></span> )}</div>
-      <button className="font-semibold text-purple-600 underline">
+      <button className="font-semibold text-purple-600 underline"
+       onClick={()=>displayReadingTime(reading_time,id)}>
         Mark As Read
       </button>
     </div>
@@ -41,5 +42,7 @@ const Blog = ({ blog,handleBookmark }) => {
 Blog.propTypes = {
   blog: PropTypes.object.isRequired,
   handleBookmark:PropTypes.func
+  // displayReadingTime:PropTypes.func
+  // displayReadingTime:PropTypes.func
 };
 export default Blog;
